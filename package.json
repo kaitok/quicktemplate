@@ -1,0 +1,31 @@
+{
+  "name": "quicktemplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Shuichiro Kamiya",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "webpack": "^1.4.13"
+  },
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "bootstrap": "^3.3.1",
+    "css-loader": "^0.9.0",
+    "file-loader": "^0.8.1",
+    "jquery": "^2.1.1",
+    "style-loader": "^0.8.2",
+    "underscore": "^1.7.0",
+    "url-loader": "^0.5.5"
+  }
+}
