@@ -1,3 +1,5 @@
+###※だいぶ途中
+
 ###必要なもの
 
 [node.js](http://nodejs.org)
