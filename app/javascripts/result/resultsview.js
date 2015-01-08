@@ -2,7 +2,7 @@ var _ = require('underscore');
 var Backbone = require('backbone');
 
 var TEMPLATE = _.template(
-    '<div><%= result  %></div>'
+        '<pre><%= result  %></pre>'
 );
 
 var ResultView = Backbone.View.extend({

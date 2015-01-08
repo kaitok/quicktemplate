@@ -7,14 +7,37 @@
   <body>
 
     <div class="container">
-    <div id="header">Quick Template</div>
 
-      <p class="col-sm-1">input</p><textarea id="input-data" class="col-sm-11"></textarea>
-      <p class="col-sm-1">iteratee</p><textarea id="iteratee" class="col-sm-11"></textarea>
-      <p class="col-sm-1">template</p><textarea id="template" class="col-sm-11"></textarea>
-      <div id="result" class="col-sm-12"></div>
+      <div id="header">Quick Template</div>
 
-    </div>
+      <div class="row">
+        <p class="col-sm-1">input</p>
+        <textarea id="input-data" class="col-sm-10"></textarea>
+      </div>
+
+      <div class="row">
+        <p class="col-sm-1">iteratee</p>
+        <textarea id="iteratee" class="col-sm-10"></textarea>
+      </div>
+        
+        <div class="row">
+          <p class="col-sm-1">template</p>
+          <textarea id="template" class="col-sm-10"></textarea>
+        </div>
+        
+        <!-- <div class="row"> -->
+        <!--   <p class="col-sm-12">var models = _.map(input, iteratee)</p> -->
+        <!-- </div> -->
+        
+        <!-- <div class="row"> -->
+        <!--   <div class="col-sm-12">_.template( models )</div> -->
+        <!-- </div> -->
+        <div class="row">
+          <p class="col-sm-1">result</p>
+          <div id="result" class="col-sm-10"></div>
+        </div>
+
+    </div> <!-- .container -->
 
     <script src="bundle.js"></script>
 

@@ -1,3 +1,21 @@
 ul#results {
     list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+textarea#input-data {
+    height: 120px;
+}
+
+textarea#iteratee {
+    height: 140px;
+}
+
+textarea#template {
+    height: 160px;
+}
+
+div#result {
+    padding: 0;
 }

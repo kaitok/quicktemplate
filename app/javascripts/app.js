@@ -1,7 +1,8 @@
-var $                       = require('jquery');
-var _                       = require('underscore');
-var Backbone      = require('backbone');
-var ResultsView  = require('./result/resultsview');
+var $ = require('jquery');
+var _ = require('underscore');
+var Backbone = require('backbone');
+var ResultsView = require('./result/resultsview');
+var examples =  require('./resources/examples');
 
 var Application = function() {
 
@@ -32,12 +33,9 @@ var Application = function() {
     };
 
     var setExamples = function() {
-        var example1 = '1\n2\n3\n4\n5';
-        var example2 = 'function( line ) {\n  return {param: line};\n}';
-        var example3 = "SELECT user FROM users WHERE id = '<%= param %>'";
-        $('#input-data').val( example1 );
-        $('#iteratee').val( example2 );
-        $('#template').val( example3 );
+        $('#input-data').val( examples.input_data );
+        $('#iteratee').val( examples.iteratee );
+        $('#template').val( examples.template );
     };
 };
 module.exports = new Application();
